@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>Spotify</h2>
+
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-search"></i> Search</li>
+            <li><i class="fas fa-book"></i> Your Library</li>
+        </ul>
+
+        <div class="playlist-section">
+            <h3>Playlists</h3>
+            <p>Create Playlist</p>
+            <p>Liked Songs</p>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <button>&lt;</button>
+            <button>&gt;</button>
+
+            <div>
+                <button class="premium">Explore Premium</button>
+                <button>Install App</button>
+            </div>
+        </header>
+
+        <section>
+            <h2>Recently Played</h2>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?1">
+                    <h4>Today's Top Hits</h4>
+                    <p>Best songs right now.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?2">
+                    <h4>Pop Mix</h4>
+                    <p>Your favourite pop tracks.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?3">
+                    <h4>Chill Vibes</h4>
+                    <p>Relax and enjoy.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?4">
+                    <h4>Workout</h4>
+                    <p>Boost your energy.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Made For You</h2>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?5">
+                    <h4>Daily Mix 1</h4>
+                    <p>Updated daily.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?6">
+                    <h4>Daily Mix 2</h4>
+                    <p>Recommended for you.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/200?7">
+                    <h4>Daily Mix 3</h4>
+                    <p>Based on your taste.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</div>
+
+<!-- Footer Player -->
+<footer class="player">
+
+    <div class="song-info">
+        <img src="https://picsum.photos/60">
+        <div>
+            <h4>Blinding Lights</h4>
+            <p>The Weeknd</p>
+        </div>
+    </div>
+
+    <div class="controls">
+
+        <button id="playBtn">
+            <i class="fas fa-play"></i>
+        </button>
+
+        <input type="range" id="progress" value="0">
+
+    </div>
+
+    <div class="volume">
+        <i class="fas fa-volume-up"></i>
+        <input type="range">
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

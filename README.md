@@ -16,7 +16,4 @@ A front-end clone of Spotify's web player built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-[Link]
-
-## Screenshots
-(Add screenshots here)
+https://arpitatanwani2810.github.io/uiclone/
